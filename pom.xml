@@ -3,6 +3,19 @@
   <groupId>com.automation</groupId>
   <artifactId>MavenApp_One</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <build> 
+  <plugins> 
+  <plugin>
+   <groupId>org.apache.maven.plugins</groupId> 
+   <artifactId>maven-compiler-plugin</artifactId> 
+   <version>3.13.0</version>
+    <configuration>
+     <source>1.9</source> 
+     <target>1.9</target> 
+     </configuration> 
+     </plugin> 
+     </plugins> 
+     </build>
   <dependencies>
   <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
