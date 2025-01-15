@@ -1,5 +1,5 @@
-package com.example.app;
-
+/*package com.example.app;
+							Commenting out this section as we have defined our test cases in ExampleStepDefinition
 import app.App_One;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -31,4 +31,4 @@ public class AppTest {
         Assert.assertTrue(title1.contains("Cricbuzz"), "Strings should match");
     	
     }
-}
+}*/
